@@ -6,9 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * The slide-out cart panel that opens automatically after "Add to Cart".
- */
 public class CartPage {
 
     private final WebDriver driver;

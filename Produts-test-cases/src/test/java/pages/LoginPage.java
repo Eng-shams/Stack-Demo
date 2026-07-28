@@ -6,16 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Handles the "Sign In" flow. Username/password are React-Select dropdowns,
- * not plain <input> fields, so we type into them and hit ENTER to pick the
- * highlighted match instead of clicking a specific option index (that index
- * changes depending on which users exist, so typing is more reliable).
- *
- * NOTE: Locators below are based on the site's known structure. If the site
- * markup has changed, open dev tools on bstackdemo.com and update the
- * By.xxx values here - that's the only place they live.
- */
 public class LoginPage {
 
     private final WebDriver driver;

@@ -6,10 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * The "Favourites" page (URL: /favourites). Reuses the same card markup
- * as the main product listing.
- */
 public class FavoritesPage {
 
     private final WebDriver driver;

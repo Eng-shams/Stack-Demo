@@ -9,15 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-/**
- * The product listing page. Also owns the search bar since it lives on
- * the same page in the real app.
- *
- * NOTE: Locators below are based on the site's known structure
- * (BEM-style class names like "shelf-item__xxx"). If the real DOM differs,
- * open dev tools on bstackdemo.com and fix the By.xxx values here - every
- * other test relies on this one class, so one fix here fixes everything.
- */
 public class ProductsPage {
 
     private final WebDriver driver;

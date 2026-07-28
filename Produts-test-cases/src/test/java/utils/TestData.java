@@ -1,9 +1,5 @@
 package utils;
 
-/**
- * Constants pulled straight from the test case document (Test Data / Preconditions sections).
- * Keeping them in one place means a locator or credential change is a one-line fix.
- */
 public class TestData {
 
     public static final String BASE_URL = "https://www.bstackdemo.com";

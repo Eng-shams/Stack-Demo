@@ -6,10 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Order review step shown after clicking "Checkout" in the cart.
- * Requires the user to be logged in first (see LoginPage).
- */
 public class CheckoutPage {
 
     private final WebDriver driver;
